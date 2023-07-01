@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section5 {
     background:linear-gradient(to right, white 0%, transparent 0%, transparent 60%, white 20%),
-    url('../image/section5.png');
+    url('../image/section5.webp');
     background-position:inherit;
     background-repeat: no-repeat;
     background-size: cover;
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section7 {
     background: linear-gradient(to right, white 0%, transparent 0%, transparent 0%, white 30%, white 15%, transparent 70%, transparent 100%),
-    url('../image/sec7_bg.png');
+    url('../image/sec7_bg.webp');
     background-position: right 70% center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -515,7 +515,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section9{
     height: 100%;
-    background-image: url('../image/sec9_bg.png');
+    background-image: url('../image/sec9_bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -652,12 +652,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 .card_round{
-    left: 55%;
-    top: 40%;
+    left: 50%;
+    top: 30%;
 }
 .card_arrow{
-    left: 25%;
-    top: -5px;
+    left: -15%;
+    top: 25px;
 }
 .section12 .card:hover .card_round {
     transform: scale(1.1);
@@ -699,7 +699,7 @@ h1, h2, h3, h4, h5, h6 {
     color:#ee4d0d;
 }
 .newsletter {
-    background-image: url('../image/newsletter_bg.png');
+    background-image: url('../image/newsletter_bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -747,7 +747,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 0;
 }
 footer{
-    background-image: url('../image/footer_bg.png');
+    background-image: url('../image/footer_bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -843,7 +843,6 @@ footer{
 
 .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
     color: #bb0000;
-    background: #fefefe;
     border-color: #bb0000;
 }
 
@@ -851,8 +850,18 @@ footer{
     background: #125688;
 }
 
-.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
-    color: #125688;
-    background: #fefefe;
-    border-color: #125688;
+
+.bt_btn {
+    position: absolute;
+    bottom: 72px;
+    right: 127px;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    color: #ee3d0d;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.4s;
 }

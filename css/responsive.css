@@ -253,6 +253,10 @@
     .bottom_ftr p{
         font-size: 11px;
     }
+    .newsletter h1 {
+        font-size: 22px;
+        margin-left: 1rem;
+    }
 
 }
 
@@ -265,6 +269,17 @@
     .section11 p span{
         font-size: 16px;
     }
+    .section12 .card:hover .card_round {
+        transform: scale(1.1);
+    }
+
+    .section12 .card:hover .card_arrow {
+        transform: translateX(5px);
+    }
+    .newsletter h1 {
+        font-size: 22px;
+        margin-left: 1rem;
+    }
     .card_round{
         left: 55%;
         top: 40%;
@@ -273,13 +288,6 @@
         left: 25%;
         top: -5px;
     }
-    .section12 .card:hover .card_round {
-        transform: scale(1.1);
-    }
-
-    .section12 .card:hover .card_arrow {
-        transform: translateX(5px);
-    }
 }
 
 
@@ -287,5 +295,17 @@
 @media only screen and (min-width: 992px) {
     .accordion-button {
         font-size: 38px;
+    }
+    .card_arrow {
+        left: -16%;
+        top: 17px;
+    }
+    .card_round {
+        left: 50%;
+        top: 20%;
+    }
+    .newsletter h1 {
+        font-size: 22px;
+        margin-left: 1rem;
     }
 }

@@ -61,6 +61,9 @@
     .sec5_left h1{
         text-align: center;
     }
+    .sec5_btn_cover{
+        text-align: center;
+    }
     .sec5_btn{
         background-color: #df3a0d;
         border: #df3a0d;
@@ -133,23 +136,22 @@
     .notice_sec .col-10 p{
         font-size: 17px;
     }
+    .sec9_btn_cover{
+        text-align: center;
+    }
+    .section11 ul li{
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
     .carousel-inner .slider_bgimage {
         min-height: 400px;
     }
-    .card {
-        width: 100%;
-        margin: 1rem 0.5rem;
-        border-radius: 0;
-        position: relative;
-    }
+
     .custom-div {
         flex: 1;
         margin: 0 1rem;
@@ -169,6 +171,20 @@
     }
     .accordion-button {
         font-size: 20px;
+    }
+    section10 .card {
+        margin: 1rem 0.5rem;
+        border-radius: 0;
+        position: relative;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section6 .list-inline-item{
+        display: block;
+        width:auto;
     }
 }
 

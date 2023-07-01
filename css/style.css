@@ -22,7 +22,6 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #ebe9f0;
-    overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -214,6 +213,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sec5_left p{
     font-size: 20px;
+}
+.sec5_btn_cover{
+    text-align: left;
 }
 .sec5_btn{
     background-color: #df3a0d;
@@ -557,4 +559,67 @@ h1, h2, h3, h4, h5, h6 {
 }
 .notice_sec .col-10 p{
     font-size: 17px;
+}
+.sec9_btn_cover{
+    text-align: left;
+}
+.section10 p{
+    font-size: 15px;
+    padding: 10px 0;
+    color: #ee4d0d;
+    font-weight: 600;
+}
+.section10 h1{
+    font-size: 42px;
+}
+.section10 h1 span{
+    color:#006726;
+}
+.owl-carousel .item {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.owl-carousel .item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.owl-carousel .item h4 {
+    color:#0d152b;
+    text-align: left;
+    font-size: 14px;
+}
+
+.owl-carousel .item p {
+    color: #147020;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.owl-dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background: #888;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.owl-dot.active {
+    background: #333;
+}
+.section11{
+    height: auto;
+    background: linear-gradient(to left, #7ca200, #026825);
+}
+.section11 ul li{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+}
+.section11 ul li a{
+    font-size: 18px;
 }

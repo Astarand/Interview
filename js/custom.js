@@ -26,7 +26,7 @@ $(document).ready(function($) {
     });
 });
 $(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
+    $('.owl-carousel1').owlCarousel({
         loop: true,
         margin: 30,
         dots: true,
@@ -49,24 +49,30 @@ $(document).ready(function() {
         }
     });
 });
-$('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: false,
-    dots: true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 3
-        },
-        1000: {
-            items: 6
+$(document).ready(function() {
+    $('.owl-carousel2').owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: true,
+        nav: false,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                margin: 10,
+                stagePadding: 20,
+            },
+            600: {
+                items: 3,
+                margin: 20,
+                stagePadding: 50,
+            },
+            1000: {
+                items: 5
+            }
         }
-    }
+    });
 });
 
-$('.owl-dot').click(function() {
-    $('.owl-carousel').trigger('to.owl.carousel', [$(this).index(), 300]);
-});
+
+

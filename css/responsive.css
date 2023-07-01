@@ -144,6 +144,38 @@
         padding: 5px 10px;
         margin-bottom: 10px;
     }
+    .section12 .card-body p{
+        font-size: 22px;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+    .section12 .card-body p span{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .card_round{
+        left: 35%;
+        top: 40%;
+    }
+    .card_arrow{
+        left: 5%;
+        top: -5px;
+    }
+    .section13 h1 {
+        font-size: 29px;
+        font-weight: 200;
+    }
+    .sec13_btn_cover{
+        text-align: center;
+    }
+    .newsletter {
+        position: static;
+        margin-top: 0;
+        width: 100%;
+        left: 0;
+        transform: none;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -177,6 +209,45 @@
         border-radius: 0;
         position: relative;
     }
+    .section12 .card-body p{
+        font-size: 22px;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+    .section12 .card-body p span{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .card_round{
+        left: 35%;
+        top: 40%;
+    }
+    .card_arrow{
+        left: 5%;
+        top: -5px;
+    }
+    .section11 ul li {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+    .section11 p span{
+        font-size: 25px;
+    }
+    .section6 .list-inline-item{
+        display: block;
+        width: 32%;
+    }
+    .mega_menu{
+        margin-top: 100px;
+    }
+    .bottom_ftr h4{
+        margin-top: 26px !important;
+        font-size: 18px;
+    }
+    .bottom_ftr p{
+        font-size: 11px;
+    }
 
 }
 
@@ -184,7 +255,25 @@
 @media only screen and (min-width: 768px) {
     .section6 .list-inline-item{
         display: block;
-        width:auto;
+        width: auto;
+    }
+    .section11 p span{
+        font-size: 16px;
+    }
+    .card_round{
+        left: 55%;
+        top: 40%;
+    }
+    .card_arrow{
+        left: 25%;
+        top: -5px;
+    }
+    .section12 .card:hover .card_round {
+        transform: scale(1.1);
+    }
+
+    .section12 .card:hover .card_arrow {
+        transform: translateX(5px);
     }
 }
 

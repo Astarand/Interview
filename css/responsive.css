@@ -110,9 +110,6 @@
     .sec9_mid h1{
         text-align: center;
     }
-    .sec9_mid button{
-        margin-left: 120px;
-    }
     .notice h1{
         text-align: center;
     }
@@ -137,8 +134,9 @@
     .notice_sec .col-10 p{
         font-size: 17px;
     }
-    .sec9_readbtn{
-        margin-left: 120px;
+    button{
+        display: flex;
+        justify-content: center;
     }
 }
 

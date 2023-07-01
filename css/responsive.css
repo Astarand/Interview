@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .th_left p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .th_right p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .carousel-inner .slider_bgimage {
+        min-height: auto;
+    }
+    .carousel-caption {
+        width: 30%;
+        position: absolute;
+        right: 0;
+        top: 0.25rem;
+        left: 15%;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        color: #fff;
+        text-align: left;
+    }
+    .carousel-caption h5 {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .carousel-caption p {
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .banner_btn {
+        background-color: #df3a0d;
+        border: #df3a0d;
+        border-radius: 0;
+        padding: 5px 11px;
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+    .section4 .card{
+        width: 100%;
+        margin: 0.5rem 0;
+        border-radius: 0;
+        position: relative;
+    }
+    .card {
+        width: 100%;
+        margin: 0.5rem 0.5rem;
+        border-radius: 0;
+        position: relative;
+    }
+    .sec5_left_head{
+        padding-top: 15px;
+    }
+    .sec5_left p{
+        text-align: center;
+    }
+    .sec5_left h1{
+        text-align: center;
+    }
+    .sec5_btn{
+        background-color: #df3a0d;
+        border: #df3a0d;
+        border-radius: 0;
+        padding: 15px 35px;
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-left: 100px;
+    }
+    .custom-div {
+        flex: 1;
+        margin: 0 1rem;
+        border-right:none;
+    }
+
+    .custom-div:first-child,
+    .custom-div:last-child {
+        margin: 0;
+    }
+    .section6 .list-inline-item{
+        display: block;
+        width: 47%;
+    }
+    .sec6_headtxt1{
+        padding-top: 15px;
+    }
+    .accordion-button {
+        font-size: 25px;
+    }
+    .section9 .container{
+        padding: 0 !important;
+    }
+    .section9 .card{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        position: relative;
+    }
+    .sec9_mid{
+        padding: 15px 0;
+    }
+    .sec9_mid p{
+        text-align: center;
+        font-size: 15px;
+        padding: 0 12px;
+    }
+    .sec9_mid h1{
+        text-align: center;
+    }
+    .sec9_mid button{
+        margin-left: 120px;
+    }
+    .notice h1{
+        text-align: center;
+    }
+    .notice_sec{
+        width: 100%;
+        height: 268px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .notice_box .row{
+        --bs-gutter-x: 0 !important;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right:0 !important;
+        margin-left:0 !important;
+    }
+    .notice_sec .col-2{
+        padding: 0 10px;
+    }
+    .notice_sec .col-10 p{
+        font-size: 17px;
+    }
+    .sec9_readbtn{
+        margin-left: 120px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .carousel-inner .slider_bgimage {
+        min-height: 400px;
+    }
+    .card {
+        width: 100%;
+        margin: 1rem 0.5rem;
+        border-radius: 0;
+        position: relative;
+    }
+    .custom-div {
+        flex: 1;
+        margin: 0 1rem;
+        border-right:none;
+    }
+
+    .custom-div:first-child,
+    .custom-div:last-child {
+        margin: 0;
+    }
+    .section6 .list-inline-item{
+        display: block;
+        width: 25%;
+    }
+    .sec6_headtxt1{
+        padding-top: 15px;
+    }
+    .accordion-button {
+        font-size: 20px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .accordion-button {
+        font-size: 38px;
+    }
+}
